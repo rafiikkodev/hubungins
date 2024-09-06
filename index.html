@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Hubung'ins - Jasa, Pariwisata, dan Perdagangan" />
+    <title>Hubung'ins</title>
+    <link rel="icon" type="image/png" href="src\img\logo_hubungins.svg" />
+    <link rel="stylesheet" href="src\input.css" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+  </head>
+  <body class="font-poppins selection:bg-teal-700">
+    <!-- NAVBAR START -->
+
+    <nav id="navbar" class="bg-white border-gray-200 fixed top-0 w-full z-50 navbar transition-all duration-300">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="https://hubungins.com" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="src/img/logo_hubungins.svg" class="h-8" alt="Hubung'ins" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap text-teal-700">Hubung'ins</span>
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent">
+            <li>
+              <a href="#home" class="block py-2 px-3 text-teal-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-700 md:p-0">Home</a>
+            </li>
+            <li>
+              <a href="#layanan" class="block py-2 px-3 text-teal-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-700 md:p-0">Layanan</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="block py-2 px-3 text-teal-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-700 md:p-0">Teman Kami</a>
+            </li>
+            <li>
+              <a href="#testimoni" class="block py-2 px-3 text-teal-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-slate-700 md:p-0">Tanggapan</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- JUMBOTRON START -->
+      <section id="home" class="bg-center bg-cover bg-no-repeat bg-[url('src/img/jumbotron/img_jumbotron.jpg')] bg-slate-700 bg-blend-multiply">
+        <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+          <h1 class="mb-4 text-3xl font-bold tracking-tight leading-none text-white hover:text-teal-700 transition duration-300 md:text-4xl lg:text-5xl">HUBUNG'INS</h1>
+          <p class="mb-2 text-base font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Agensi Kreatif Pembeda No 1 Sebagai Jasa Mengoperasikan Social Media Kamu!</p>
+          <p class="mb-8 text-base font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">“Aku yakin, kita sama-sama bisa untuk Wujudkan Impian Merek Kamu di Dunia Digital sebagai Teman Kami di Hubung’ins”</p>
+          <p class="mb-2 text-base font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Didukung oleh:</p>
+          <div class="flex justify-center items-center gap-9 p-4 mb-20">
+            <img src="src/img/jumbotron/image 1.svg" alt="Image 1" class="max-w-full h-auto" />
+            <img src="src\img\jumbotron\kemendikbud.png" alt="Image 2" class="max-w-full h-20" />
+            <img src="src\img\logo_costumer\logo_uty.svg" alt="Image 3" class="max-w-full h-20" />
+            <img src="src\img\jumbotron\ibisuty.png" alt="Image 4" class="max-w-full h-20" />
+          </div>
+          <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+            <a
+              href="https://wa.me/6282265486206"
+              class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-teal-700 hover:bg-white hover:text-teal-700 focus:ring-4 transition duration-200"
+            >
+              Mari Berteman
+              <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- JUMBOTRON END -->
+
+      <!-- LAYANAN START -->
+
+      <section id="layanan">
+        <div class="container mx-auto text-center my-8">
+          <h2 class="text-3xl font-bold mb-12 text-slate-800">Layanan Kami</h2>
+          <div class="flex flex-wrap justify-center gap-8">
+            <!-- Card Item -->
+            <a href="#" class="relative block w-80 h-full rounded-tr-3xl border border-gray-100 overflow-hidden shadow-xl">
+              <img src="src/img/layanan/Frame 1.svg" alt="" class="w-full h-2/3 object-cover" />
+
+              <div class="p-4 text-center h-1/3 flex flex-col justify-between">
+                <strong class="text-xl font-medium text-gray-900">Social Media Management (Instagram & TikTok)</strong>
+                <p class="mt-2 text-pretty text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet officia rem vel voluptatum in eum vitae aliquid at sed dignissimos.</p>
+              </div>
+            </a>
+
+            <!-- Card Item -->
+            <a href="#" class="relative block w-80 h-full rounded-tr-3xl border border-gray-100 overflow-hidden shadow-xl">
+              <img src="src/img/layanan/Frame 2.svg" alt="" class="w-full h-2/3 object-cover" />
+
+              <div class="p-4 text-center h-1/3 flex flex-col justify-between">
+                <strong class="text-xl font-medium text-gray-900">Operations Ads</strong>
+                <p class="mt-2 text-pretty text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet officia rem vel voluptatum in eum vitae aliquid at sed dignissimos.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- LAYANAN END -->
+
+      <!-- PORTFOLIO START -->
+      <section id="portfolio" class="m-20">
+        <h2 class="text-4xl mx-auto text-center font-bold m-8 text-slate-800">Pertemanan Brand Kami</h2>
+        <div class="flex items-center justify-center flex-wrap py-4">
+          <button type="button" class="filter-button flex items-center text-white border border-teal-700 bg-teal-700 rounded-full text-base font-medium px-5 py-2.5 mb-3 mx-1" data-filter="all">Semua</button>
+          <button type="button" class="filter-button flex items-center text-teal-700 border border-teal-700 bg-white rounded-full text-base font-medium px-5 py-2.5 text-center mb-3 mx-1" data-filter="uty-campus">
+            <img src="src/img/logo_costumer/logo_uty.svg" alt="UTY Campus Icon" class="w-5 h-5 mr-2" />
+            UTY Campus
+          </button>
+          <button type="button" class="filter-button flex items-center text-teal-700 border border-teal-700 bg-white rounded-full text-base font-medium px-5 py-2.5 text-center mb-3 mx-1" data-filter="uty-creative-hub">
+            <img src="src\img\logo_costumer\logo_uch.svg" alt="UTY Campus Icon" class="w-5 h-5 mr-2" />
+            UTY Creative Hub
+          </button>
+          <button type="button" class="filter-button flex items-center text-teal-700 border border-teal-700 bg-white rounded-full text-base font-medium px-5 py-2.5 text-center mb-3 mx-1" data-filter="uty-growpath-expo">
+            <img src="src\img\logo_costumer\logo_growpath.svg" alt="UTY Campus Icon" class="w-5 h-5 mr-2" />
+            UTY Growpath Expo
+          </button>
+          <button type="button" class="filter-button flex items-center text-teal-700 border border-teal-700 bg-white rounded-full text-base font-medium px-5 py-2.5 text-center mb-3 mx-1" data-filter="perspektif-uty">
+            <img src="src\img\logo_costumer\logo-perspektif.svg" alt="UTY Campus Icon" class="w-5 h-5 mr-2" />
+            Perspektif UTY
+          </button>
+          <button type="button" class="filter-button flex items-center text-teal-700 border border-teal-700 bg-white rounded-full text-base font-medium px-5 py-2.5 text-center mb-3 mx-1" data-filter="kuy-roti-bakar">
+            <img src="src\img\logo_costumer\logo_kuyrotibakar.svg" alt="UTY Campus Icon" class="w-5 h-5 mr-2" />
+            KUY! Roti Bakar
+          </button>
+          <button type="button" class="filter-button flex items-center text-teal-700 border border-teal-700 bg-white rounded-full text-base font-medium px-5 py-2.5 text-center mb-3 mx-1" data-filter="nawa-skincare">
+            <img src="src\img\logo_costumer\logo_nawaskincare.svg" alt="UTY Campus Icon" class="w-5 h-5 mr-2" />
+            Nawa Skincare
+          </button>
+          <button type="button" class="filter-button flex items-center text-teal-700 border border-teal-700 bg-white rounded-full text-base font-medium px-5 py-2.5 text-center mb-3 mx-1" data-filter="nawasena">
+            <img src="src\img\logo_costumer\logo_nawasena.svg" alt="UTY Campus Icon" class="w-5 h-5 mr-2 rounded-full" />
+            Nawasena
+          </button>
+        </div>
+        <div id="gallery" class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 gap-4 m-auto mt-6">
+          <!-- UTY CAMPUS -->
+
+          <div class="gallery-item all uty-campus hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycampus\1.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-campus hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycampus\2.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-campus hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycampus\4.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-campus hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycampus\5.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-campus hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycampus\6.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-campus hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycampus\7.png" alt="" />
+          </div>
+
+          <!-- UTY CREATIVE -->
+
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\28.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\29.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\30.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\31.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\32.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\33.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\34.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\35.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\36.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\37.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\38.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\39.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\40.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\41.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\42.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\43.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-creative-hub hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\utycreative\44.png" alt="" />
+          </div>
+
+          <!-- UTY GROWPATH EXPO -->
+
+          <div class="gallery-item all uty-growpath-expo hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\growpath\6.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-growpath-expo hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\growpath\5.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-growpath-expo hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\growpath\4.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-growpath-expo hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\growpath\3.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-growpath-expo hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\growpath\2.png" alt="" />
+          </div>
+          <div class="gallery-item all uty-growpath-expo hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\growpath\1.png" alt="" />
+          </div>
+
+          <!-- PERSPEKTIF UTY -->
+
+          <div class="gallery-item all perspektif-uty hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\perspektif\13.png" alt="" />
+          </div>
+          <div class="gallery-item all perspektif-uty hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\perspektif\14.png" alt="" />
+          </div>
+          <div class="gallery-item all perspektif-uty hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\perspektif\15.png" alt="" />
+          </div>
+          <div class="gallery-item all perspektif-uty hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\perspektif\16.png" alt="" />
+          </div>
+          <div class="gallery-item all perspektif-uty hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\perspektif\17.png" alt="" />
+          </div>
+
+          <!-- KUY ROTIBAKAR -->
+
+          <div class="gallery-item all kuy-roti-bakar hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\kuy\1.png" alt="" />
+          </div>
+
+          <!-- NAWA SKINCARE -->
+
+          <div class="gallery-item all nawa-skincare hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\nawaskincare\7.png" alt="" />
+          </div>
+          <div class="gallery-item all nawa-skincare hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\nawaskincare\8.png" alt="" />
+          </div>
+          <div class="gallery-item all nawa-skincare hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\nawaskincare\9.png" alt="" />
+          </div>
+          <div class="gallery-item all nawa-skincare hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\nawaskincare\10.png" alt="" />
+          </div>
+          <div class="gallery-item all nawa-skincare hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\nawaskincare\11.png" alt="" />
+          </div>
+          <div class="gallery-item all nawa-skincare hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\nawaskincare\12.png" alt="" />
+          </div>
+
+          <!-- NAWASENA -->
+
+          <div class="gallery-item all nawasena hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\nawasena\2.png" alt="" />
+          </div>
+          <div class="gallery-item all nawasena hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\nawasena\3.png" alt="" />
+          </div>
+          <div class="gallery-item all nawasena hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\nawasena\4.png" alt="" />
+          </div>
+          <div class="gallery-item all nawasena hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\nawasena\5.png" alt="" />
+          </div>
+          <div class="gallery-item all nawasena hidden">
+            <img class="h-auto max-w-full rounded-lg" src="src\img\portfolio\nawasena\6.png" alt="" />
+          </div>
+        </div>
+
+        <div class="text-center mt-10">
+          <button id="seeAll" class="text-teal-700 border border-teal-700 bg-white hover:text-white hover:bg-teal-700 rounded-full text-base font-medium px-5 py-2.5 text-center">Tampilkan Lebih Banyak</button>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO END -->
+
+      <!-- TESTIMONIALS START -->
+
+      <section id="testimoni" class="m-20">
+        <div class="flex flex-col items-center p-6">
+          <div class="mb-4">
+            <img src="src\img\icon.svg" alt="" class="max-w-full h-auto" />
+          </div>
+          <p class="text-xl text-center max-w-2xl mb-6 text-slate-800">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. A cupiditate tempora enim at voluptas, perferendis cum placeat id quod unde modi deleniti earum vel fuga mollitia. Harum adipisci minima nam."
+          </p>
+          <div class="flex items-center gap-4 p-3 col-span-3">
+            <img src="src\img\avatar.svg" alt="Avatar John Doe" class="w-12 h-12 rounded-full object-cover flex-shrink-0" />
+            <div class="flex flex-col">
+              <p class="font-semibold text-slate-800">John Doe</p>
+              <span class="text-sm text-slate-600">Kepala Puskom</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TESTIMONIALS END -->
+
+      <div class="w-20 h-20 bg-teal-700 rounded-full flex fixed bottom-20 right-20 cursor-pointer md:w-20 md:h-20 hidden md:flex">
+        <a href="https://wa.me/6282265486206" class="text-4xl m-auto">
+          <img class="w-10 h-10" src="src/img/whatsapp.png" alt="WhatsApp" />
+        </a>
+      </div>
+    </main>
+
+    <!-- FOOTER START -->
+
+    <footer class="bg-white shadow mx-4 md:mx-20 mt-4 mb-20 rounded-lg">
+      <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <a href="#" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+            <img src="src\img\logo_hubungins.svg" class="h-8" alt="Flowbite Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap text-teal-700">Hubung'ins</span>
+          </a>
+          <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0">
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">About</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto" />
+        <span class="block text-sm text-slate-800 sm:text-center">© 2024 <a href="#" class="hover:underline text-slate-800">Hubung'ins™</a>. All Rights Reserved.</span>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+  <script src="js/script.js"></script>
+</html>
